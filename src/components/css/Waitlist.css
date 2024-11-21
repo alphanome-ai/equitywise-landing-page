@@ -1,0 +1,110 @@
+.waitlist-parent{
+    width: 100%;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(13, 7, 31) 60%, rgb(1, 1, 56) 100%);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(193, 187, 187);
+    font-size: 2rem;
+}
+
+.title{
+    font-size: 30px;
+    background: linear-gradient(to right, rgb(31, 31, 241), purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.check-title{
+    background: linear-gradient(to right, rgb(175, 31, 241), rgb(128, 0, 4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.check-cirle{
+    width: 30px;
+    color: aqua;
+}
+
+.check-para{
+    font-size: 20px;
+}
+
+.submit-btn{
+    font-size: 1rem;
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    color: #fff;
+    padding: 10px 20px;
+    width: 372px; /* Match the input width */
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transform: translateX(2%);
+    transition: background 0.15s;
+}
+
+.submit-btn:hover{
+    background: linear-gradient(to right, #091529, #4d08ee);
+}
+
+.unsubscribe-para{
+    font-size: 10px;
+    margin-top: 2rem;
+    color: gray;
+}
+
+.unsubscribe-btn{
+    text-decoration: none;
+    color: gray;
+    transition: color 0.15s;
+}
+
+.unsubscribe-btn:hover{
+    color: blue;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: linear-gradient(45deg, gray 0%, black 100%);
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-modal-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.close-modal-btn:hover {
+    background-color: #45a049;
+    
+}
+
+.cirle-check{
+    height: 100px;
+    width: 100px;
+    color: #45a049;
+}
