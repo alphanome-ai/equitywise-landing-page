@@ -89,7 +89,7 @@ function WaitlistPage() {
                         />
                     </div>
                     <button type="submit" className='submit-btn'>
-                        Join the Waitlist with us
+                        Join the Waitlist
                     </button>
                 </form>
                 <p className='unsubscribe-para'>No spam. <a className='unsubscribe-btn' href="/unsubscribe">Unsubscribe</a> anytime.</p>
